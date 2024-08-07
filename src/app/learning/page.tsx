@@ -49,6 +49,12 @@ export default function Learning() {
               tags={["authentication"]}
               linkto="https://clerk.com/blog/what-are-passkeys"
             />
+            <Card
+              title="Cloud computing without containers"
+              subTitle="Cloud computing at Cloudflare using Workers"
+              tags={["cloud-computing", "workers", "cloudflare"]}
+              linkto="https://blog.cloudflare.com/cloud-computing-without-containers"
+            />
           </TabsContent>
         </Tabs>
       </div>
