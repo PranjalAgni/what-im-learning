@@ -43,6 +43,12 @@ export default function Learning() {
               tags={["serverless"]}
               linkto="https://serverlesshorrors.com/"
             />
+            <Card
+              title="Passkeys"
+              subTitle="What are passkeys"
+              tags={["authentication"]}
+              linkto="https://clerk.com/blog/what-are-passkeys"
+            />
           </TabsContent>
         </Tabs>
       </div>
