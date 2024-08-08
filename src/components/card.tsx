@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ title, subTitle, linkto, tags }) => (
         href={linkto}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-lg font-medium leading-none hover:bg-green-600"
+        className="text-xl font-medium leading-none hover:bg-green-600"
       >
         {title}
       </a>
