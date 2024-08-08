@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
-import { Inter as FontSans } from "next/font/google";
+import { Patrick_Hand } from "next/font/google";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 
-const fontSans = FontSans({
+const patrickHand = Patrick_Hand({
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-patrick",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -19,16 +21,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={patrickHand.className}>
       <head>
         <link rel="icon" href="../favicon.ico" sizes="any" />
       </head>
-      <body
-        className={cn(
-          "min-h-screen dark font-sans antialiased",
-          fontSans.variable
-        )}
-      >
+      <body className={cn("min-h-screen  antialiased", patrickHand.variable)}>
         {children}
       </body>
     </html>

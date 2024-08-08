@@ -6,8 +6,8 @@ import Card from "../../components/card";
 export default function Learning() {
   return (
     <main className="lg:flex min-h-screen lg:flex-col lg:items-center lg:justify-between p-12">
-      <div className="lg:max-w-5xl w-full lg:items-center lg:justify-between font-mono">
-        <Link href="/" className="m-y-2">
+      <div className="lg:max-w-5xl w-full lg:items-center lg:justify-between">
+        <Link href="/" className="m-y-2 text-xl">
           what-im-learning
         </Link>
         <h1 className="text-4xl font-bold">{"Pranjal's reading list"}</h1>

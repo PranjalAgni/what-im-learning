@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { cn } from "@/lib/utils";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "what im learning",
@@ -17,12 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={cn(
-          "min-h-screen dark font-sans antialiased",
-          inter.variable
-        )}
-      >
+      <body className="min-h-screen dark font-patrick antialiased">
         {children}
       </body>
     </html>

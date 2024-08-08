@@ -15,15 +15,15 @@ const Card: React.FC<CardProps> = ({ title, subTitle, linkto, tags }) => (
         href={linkto}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-sm font-medium leading-none hover:bg-green-600"
+        className="text-lg font-medium leading-none hover:bg-green-600"
       >
         {title}
       </a>
-      <div className="text-sm text-muted-foreground">
+      <div className="text-md text-muted-foreground">
         {subTitle} <br />
       </div>
       {tags.map((tag) => (
-        <Badge key={tag} variant="secondary" className="mx-0.5">
+        <Badge key={tag} variant="secondary" className="mx-0.5 text-md">
           {tag}
         </Badge>
       ))}
