@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import { Tabs, TabsContent } from "@/components/tabs";
 import Card from "../../components/card";
