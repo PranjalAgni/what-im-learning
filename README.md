@@ -6,3 +6,4 @@ TODO:
 
 AI for summaries like tldrthis
 More details
+add stamp date 
